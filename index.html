@@ -1,13 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Discovery</title>
-    <link rel="shortcut icon" href="./image/SD_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Local Discovery</title>
+    <link rel="shortcut icon" href="./image/LD_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
-    
+
+<body class="open-sans">
+    <!-- Header -->
+    <header class="pt-5 bg-amber-50">
+        <!-- Navbar -->
+        <nav class="container mx-auto flex justify-between">
+            <div>
+                <!-- Title logo -->
+                <div class="mb-5">
+                    <h4 class="text-3xl font-bold"><span class="text-[red]">Local</span> Discovery</h4>
+
+                </div>
+            </div>
+            <!-- Nav right side buttons -->
+            <div>
+                <ul class="flex gap-4">
+                    <li class="btn-list-shop hover:bg-[#b4afaf59] p-2  rounded-md cursor-pointer text-[18px]"><a
+                            href=""><i class="fa-solid fa-shop"></i> List your shop</a>
+                    </li>
+                    <li
+                        class="btn-login bg-linear-to-r from-[#ff8938] to-[#ff0000] text-white font-bold p-2 w-[100px] hover:shadow-lg text-center rounded-md cursor-pointer text-[18px]">
+                        Login</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mx-auto">
+        <!-- Search Section -->
+        <div>
+            <h3 class="manrope my-5 text-[2rem] font-semibold">What are you looking for today?</h3>
+            <p class="manrope my-5 text-[1.2rem]">Find what you need near you...</p>
+            <input placeholder="Search for shops, services, or essentials..." type="search" name="search"
+                id="search-box" class="border-2 border-[#5b5454] w-100 h-15 rounded-md shadow-md p-2">
+
+            <!-- Dropdown Location -->
+            <div class="relative inline-block text-left">
+                <!-- Button -->
+                <button id="cityBtn"
+                    class="flex items-center gap-2 px-4 py-2 ml-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50 focus:outline-none">
+                    <span id="selected-city">Vijayawada</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+
+                <!-- Dropdown -->
+                <div id="cityDropdown"
+                    class="hidden absolute right-0 mt-2 ml-[10px] w-56 bg-white border rounded-lg shadow-lg z-50">
+
+                    <div class="py-1 ml-[5px]">
+                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Vijayawada
+                        </div>
+                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Amaravati
+                        </div>
+                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Guntur
+                        </div>
+                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Visakhapatnam
+                        </div>
+                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Hyderabad
+                        </div>
+                        <hr>
+                        <div id="useLocation"
+                            class="px-4 py-2 hover:bg-gray-100 cursor-pointer text-blue-600 font-medium">
+                            <i class="fa-solid fa-location-crosshairs"></i> Use Current Location
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <select class="border p-2 rounded">
+                        <option>Select city</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Kolkata</option>
+                    </select> -->
+
+
+            <!-- Search button -->
+            <button
+                class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer  bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-md shadow-lg">Search
+                <i class="fa-solid fa-magnifying-glass-location"></i></button>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
