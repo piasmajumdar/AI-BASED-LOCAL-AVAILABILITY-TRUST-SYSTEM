@@ -20,14 +20,15 @@
 
 <body class="open-sans">
     <!-- Header -->
-    <header class="pt-5 bg-amber-50">
+    <header class="pt-5 border-b border-[#b8a9a9]">
         <!-- Navbar -->
         <nav class="container mx-auto flex justify-between">
             <div>
                 <!-- Title logo -->
                 <div class="mb-5">
-                    <h4 class="text-3xl font-bold"><span class="text-[red]">Local</span> Discovery</h4>
-
+                    <a href="./index.html">
+                        <h4 class="text-3xl font-bold"><span class="text-[red]">Local</span> Discovery</h4>
+                    </a>
                 </div>
             </div>
             <!-- Nav right side buttons -->
@@ -44,7 +45,8 @@
         </nav>
     </header>
 
-    <section class="container mx-auto">
+    <!-- Hero-Banner -->
+    <section class="container mt-10 mx-auto flex flex-col sm:flex-row gap-10 items-center justify-between">
         <!-- Search Section -->
         <div>
             <h3 class="manrope my-5 text-[2rem] font-semibold">What are you looking for today?</h3>
@@ -105,6 +107,800 @@
                 class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer  bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-md shadow-lg">Search
                 <i class="fa-solid fa-magnifying-glass-location"></i></button>
         </div>
+
+        <!-- hero-card-container -->
+        <div class="flex justify-end gap-2">
+
+            <!-- card -->
+            <a href="">
+                <div class="h-[300px] w-[200px] bg-[url(./image/vegetables.jpg)] rounded-lg text-white p-5">
+                    <div class="bg-[#3e9f3cc5] p-2 rounded-lg">
+                        <h3 class="text-2xl font-bold pb-3">Fresh Vegetables</h3>
+                        <p>Find nearby vegetable markets and street vendors.</p>
+                    </div>
+                </div>
+            </a>
+            <!-- card -->
+            <a href="">
+                <div class="h-[300px] w-[200px] bg-[url(./image/restaurant.jpg)] rounded-lg text-white p-5">
+                    <div class="bg-[#9f413cc5] p-2 rounded-lg">
+                        <h3 class="text-2xl font-bold pb-3">Search Restaurants</h3>
+                        <p>Find nearby cafés, tiffin centers, and budget meals.</p>
+                    </div>
+                </div>
+            </a>
+            <!-- card -->
+            <a href="">
+                <div class="h-[300px] w-[200px] bg-[url(./image/medicine.jpg)] rounded-lg text-white p-5">
+                    <div class="bg-[#3c629fc5] p-2 rounded-lg">
+                        <h3 class="text-2xl font-bold pb-3">Find Medical Stores</h3>
+                        <p>Locate trusted pharmacies and 24×7 medicine shops.</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Categories -->
+    <section class="container mx-auto my-20 grid grid-cols-2 gap-8">
+        <!-- food section -->
+        <div class="food-daily-needs p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Food & Daily Needs</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/restaurant-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Restaurants</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/tiffin.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Tiffin Centers</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/street-food-2.png" alt="" class="w-[80px] h-[80px] mx-auto rounded-lg">
+                            <p class="font-semibold text-[#5f5f5f]">Street Food</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/cafe.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Cafés</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Bakeries</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/sweet-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Sweet Shops</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/juice.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Juice Centers</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/tea.webp" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Tea Stalls</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/grocery-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Grocery Stores</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/supermarket.jpg" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Supermarkets</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/vegetables.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Vegetables</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/fruit-shop.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Fresh Fruits</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/dairy.webp" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Dairy Shops</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/meat-3.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Meat Shops</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- card -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/fish.jpg" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Fish Markets</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--Useful Categories-->
+        <div class="useful-shops p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Useful Categories</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- Xerox & Printing -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Xerox & Printing</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Tailors -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Tailors</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Key Makers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Key Makers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Shoe Repair -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Shoe Repair</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Ironing Services -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Ironing Services</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Gas Agencies -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Gas Agencies</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- ATM Nearby -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">ATM Nearby</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Internet Café -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Internet Café</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Recharge Shops -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Recharge Shops</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--Living & Accommodation -->
+        <div class="living-accommodation p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Living & Accommodation</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- PG/Hostels -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">PG/Hostels</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Rental Rooms -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Rental Rooms</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Apartments for Rent -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Apartments for Rent</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Estate Agents -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Estate Agents</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Home Decor -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Home Decor</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Furniture Stores -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Furniture Stores</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Interior Designers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Interior Designers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- House Cleaning -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">House Cleaning</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Water Suppliers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Water Suppliers</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <!--Health & Medical -->
+        <div class="health-medical p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Health & Medical</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- Hospitals -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Hospitals</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Clinics -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Clinics</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Medical Stores -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Medical Stores</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Dentists -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Dentists</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Diagnostic Labs -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Diagnostic Labs</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Physiotherapy -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Physiotherapy</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Eye Clinics -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f55f5f]">Eye Clinics</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Veterinary Clinics -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Veterinary Clinics</p>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <!-- Education & Career -->
+        <div class="education p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Education & Career</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- Schools -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Schools</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Colleges -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Colleges</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Coaching Centers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Coaching Centers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Tuition Classes -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Tuition Classes</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Driving Schools -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Driving Schools</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Study Abroad Consultants -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Study Abroad Consultants</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Computer Training -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Computer Training</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Libraries -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Libraries</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Repair & Services -->
+        <div class="repair-services p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Repair & Services</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- Mobile Repair -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Mobile Repair</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Laptop Repair -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Laptop Repair</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Electricians -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Electricians</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Plumbers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Plumbers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Car Repair -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Car Repair</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Bike Service -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Bike Service</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AC Repair -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">AC Repair</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Laundry Services -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Laundry Services</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+        <!-- Events & Miscellaneous -->
+        <div class="events-manager p-2 border border-[#cbc2c283] rounded-lg">
+            <h2 class="font-bold text-lg py-4">Events & Miscellaneous</h2>
+
+            <div class="card-container flex flex-wrap gap-8">
+                <!-- Event Organisers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Event Organisers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Wedding Planning -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Wedding Planning</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Rent & Hire -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Rent & Hire</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Packagers & Movers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Packagers & Movers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Courier Services -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Courier Services</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Photographers -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Photographers</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Gym -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Gym</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Pet Shops -->
+                <a href="">
+                    <div
+                        class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
+                        <div>
+                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <p class="font-semibold text-[#5f5f5f]">Pet Shops</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+
     </section>
 
     <script src="./js/index.js"></script>
