@@ -20,7 +20,7 @@
 
 <body class="open-sans">
     <!-- Header -->
-    <header class="pt-5 bg-gray-700 text-white border-b border-[#b8a9a9]">
+    <header class="pt-5 bg-gray-700 text-white border-b border-[#b8a9a9] px-2">
         <!-- Navbar -->
         <nav class="container mx-auto flex justify-between">
             <div>
@@ -48,13 +48,13 @@
     </header>
 
     <!-- Hero-Banner -->
-    <section class="container mt-10 mx-auto flex flex-col sm:flex-row gap-10 items-center justify-between">
+    <section class="container mt-10 mx-auto flex flex-col lg:flex-row gap-10 items-center justify-between px-2">
         <!-- Search Section -->
         <div>
             <h3 class="manrope my-5 text-[2rem] font-semibold">What are you looking for today?</h3>
             <p class="manrope my-5 text-[1.2rem]">Find what you need near you...</p>
             <input placeholder="Search for shops, services, or essentials..." type="search" name="search"
-                id="search-box" class="border-2 border-[#5b5454] w-100 h-15 rounded-md shadow-md p-2">
+                id="search-box" class="border-2 border-[#5b5454] w-60 lg:w-100 h-15 rounded-md shadow-md p-2">
 
             <!-- Dropdown Location -->
             <div class="relative inline-block text-left">
@@ -111,8 +111,7 @@
         </div>
 
         <!-- hero-card-container -->
-        <div class="flex justify-end gap-2">
-
+        <div id="hero-card-container" class="flex gap-2 justify-end">
             <!-- card -->
             <a href="">
                 <div class="h-[300px] w-[200px] bg-[url(./image/vegetables.jpg)] rounded-lg text-white p-5">
@@ -140,13 +139,16 @@
                     </div>
                 </div>
             </a>
-
         </div>
+
+
+
+
     </section>
 
 
     <!-- Categories -->
-    <section class="container mx-auto my-20 grid grid-cols-2 gap-8">
+    <section class="container mx-auto my-20 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- food section -->
         <div class="food-daily-needs p-2 border border-[#cbc2c283] rounded-lg">
             <h2 class="font-bold text-lg py-4">Food & Daily Needs</h2>

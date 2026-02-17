@@ -105,3 +105,77 @@ backToTop.addEventListener("click", () => {
     });
 });
 
+
+
+
+
+
+// Card-Container Responsive Part
+document.addEventListener("DOMContentLoaded", function () {
+
+    const container = document.getElementById("hero-card-container");
+    const cards = container.querySelectorAll("a");
+
+    let currentIndex = 0;
+    let interval;
+
+    function getScreenType() {
+        const width = window.innerWidth;
+
+        if (width < 768) return "small";
+        if (width >= 768 && width < 1024) return "medium";
+        return "large";
+    }
+
+    function resetCards() {
+        cards.forEach(card => {
+            card.style.display = "none";
+            card.classList.remove("mx-auto");
+        });
+    }
+
+    function showCards() {
+        const screen = getScreenType();
+        resetCards();
+
+        if (screen === "small") {
+            cards[currentIndex].style.display = "block";
+            cards[currentIndex].classList.add("mx-auto");
+        }
+
+        else if (screen === "medium") {
+            cards[currentIndex].style.display = "block";
+            cards[(currentIndex + 1) % cards.length].style.display = "block";
+        }
+
+        else {
+            // large screen → show all
+            cards.forEach(card => card.style.display = "block");
+            clearInterval(interval);
+            return;
+        }
+    }
+
+    function startSlider() {
+        clearInterval(interval);
+
+        if (getScreenType() === "large") return;
+
+        interval = setInterval(() => {
+            currentIndex = (currentIndex + 1) % cards.length;
+            showCards();
+        }, 3000); // change every 3 seconds
+    }
+
+    function init() {
+        currentIndex = 0;
+        showCards();
+        startSlider();
+    }
+
+    window.addEventListener("resize", init);
+
+    init();
+});
+
+
