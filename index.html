@@ -53,50 +53,51 @@
         <div>
             <h3 class="manrope my-5 text-[2rem] font-semibold">What are you looking for today?</h3>
             <p class="manrope my-5 text-[1.2rem]">Find what you need near you...</p>
-            <input placeholder="Search for shops, services, or essentials..." type="search" name="search"
-                id="search-box" class="border-2 border-[#5b5454] w-60 lg:w-100 h-15 rounded-md shadow-md p-2">
+            <div class="flex flex-wrap gap-1 items-center">
+                <input placeholder="Search for shops, services, or essentials..." type="search" name="search"
+                    id="search-box" class="border-2 border-[#5b5454] w-60 lg:w-100 h-15 rounded-md shadow-md p-2">
 
-            <!-- Dropdown Location -->
-            <div class="relative inline-block text-left">
-                <!-- Button -->
-                <button id="cityBtn"
-                    class="flex items-center gap-2 px-4 py-2 ml-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50 focus:outline-none">
-                    <span id="selected-city">Vijayawada</span>
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
-                </button>
+                <!-- Dropdown Location -->
+                <div class="relative inline-block text-left">
+                    <!-- Button -->
+                    <button id="cityBtn"
+                        class="flex items-center gap-2 px-4 py-2 ml-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50 focus:outline-none">
+                        <span id="selected-city">Vijayawada</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
 
-                <!-- Dropdown -->
-                <div id="cityDropdown"
-                    class="hidden absolute right-0 mt-2 ml-[10px] w-56 bg-white border rounded-lg shadow-lg z-50">
+                    <!-- Dropdown -->
+                    <div id="cityDropdown"
+                        class="hidden absolute left-0 sm:left-auto lg:-right-8 mt-2 ml-2.5 w-56 bg-white border rounded-lg shadow-lg z-50">
 
-                    <div class="py-1 ml-[5px]">
-                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                            Vijayawada
-                        </div>
-                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                            Amaravati
-                        </div>
-                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                            Guntur
-                        </div>
-                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                            Visakhapatnam
-                        </div>
-                        <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                            Hyderabad
-                        </div>
-                        <hr>
-                        <div id="useLocation"
-                            class="px-4 py-2 hover:bg-gray-100 cursor-pointer text-blue-600 font-medium">
-                            <i class="fa-solid fa-location-crosshairs"></i> Use Current Location
+                        <div class="py-1 ml-[5px]">
+                            <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                                Vijayawada
+                            </div>
+                            <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                                Amaravati
+                            </div>
+                            <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                                Guntur
+                            </div>
+                            <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                                Visakhapatnam
+                            </div>
+                            <div class="city-item px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                                Hyderabad
+                            </div>
+                            <hr>
+                            <div id="useLocation"
+                                class="px-4 py-2 hover:bg-gray-100 cursor-pointer text-blue-600 font-medium">
+                                <i class="fa-solid fa-location-crosshairs"></i> Use Current Location
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- <select class="border p-2 rounded">
+                <!-- <select class="border p-2 rounded">
                         <option>Select city</option>
                         <option>Delhi</option>
                         <option>Mumbai</option>
@@ -104,10 +105,11 @@
                     </select> -->
 
 
-            <!-- Search button -->
-            <button
-                class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer  bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-md shadow-lg">Search
-                <i class="fa-solid fa-magnifying-glass-location"></i></button>
+                <!-- Search button -->
+                <button
+                    class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer  bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-md shadow-lg">Search
+                    <i class="fa-solid fa-magnifying-glass-location"></i></button>
+            </div>
         </div>
 
         <!-- hero-card-container -->
@@ -159,7 +161,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/restaurant-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/restaurant-2.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Restaurants</p>
                         </div>
                     </div>
@@ -169,7 +171,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/tiffin.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/tiffin.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Tiffin Centers</p>
                         </div>
                     </div>
@@ -179,7 +181,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/street-food-2.png" alt="" class="w-[80px] h-[80px] mx-auto rounded-lg">
+                            <img src="./image/street-food-2.png" alt="" class="w-20 h-20 mx-auto rounded-lg">
                             <p class="font-semibold text-[#5f5f5f]">Street Food</p>
                         </div>
                     </div>
@@ -189,7 +191,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/cafe.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/cafe.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Cafés</p>
                         </div>
                     </div>
@@ -199,7 +201,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Bakeries</p>
                         </div>
                     </div>
@@ -209,7 +211,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/sweet-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/sweet-2.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Sweet Shops</p>
                         </div>
                     </div>
@@ -219,7 +221,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/juice.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/juice.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Juice Centers</p>
                         </div>
                     </div>
@@ -229,7 +231,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/tea.webp" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/tea.webp" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Tea Stalls</p>
                         </div>
                     </div>
@@ -239,7 +241,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/grocery-2.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/grocery-2.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Grocery Stores</p>
                         </div>
                     </div>
@@ -249,7 +251,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/supermarket.jpg" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/supermarket.jpg" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Supermarkets</p>
                         </div>
                     </div>
@@ -259,7 +261,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/vegetables.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/vegetables.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Vegetables</p>
                         </div>
                     </div>
@@ -269,7 +271,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/fruit-shop.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/fruit-shop.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Fresh Fruits</p>
                         </div>
                     </div>
@@ -279,7 +281,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/dairy.webp" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/dairy.webp" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Dairy Shops</p>
                         </div>
                     </div>
@@ -289,7 +291,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/meat-3.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/meat-3.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Meat Shops</p>
                         </div>
                     </div>
@@ -299,7 +301,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/fish.jpg" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/fish.jpg" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Fish Markets</p>
                         </div>
                     </div>
@@ -317,7 +319,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Xerox & Printing</p>
                         </div>
                     </div>
@@ -328,7 +330,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Tailors</p>
                         </div>
                     </div>
@@ -339,7 +341,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Key Makers</p>
                         </div>
                     </div>
@@ -350,7 +352,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Shoe Repair</p>
                         </div>
                     </div>
@@ -361,7 +363,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Ironing Services</p>
                         </div>
                     </div>
@@ -372,7 +374,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Gas Agencies</p>
                         </div>
                     </div>
@@ -383,7 +385,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">ATM Nearby</p>
                         </div>
                     </div>
@@ -394,7 +396,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Internet Café</p>
                         </div>
                     </div>
@@ -405,7 +407,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Recharge Shops</p>
                         </div>
                     </div>
@@ -422,7 +424,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">PG/Hostels</p>
                         </div>
                     </div>
@@ -433,7 +435,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Rental Rooms</p>
                         </div>
                     </div>
@@ -444,7 +446,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Apartments for Rent</p>
                         </div>
                     </div>
@@ -455,7 +457,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Estate Agents</p>
                         </div>
                     </div>
@@ -466,7 +468,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Home Decor</p>
                         </div>
                     </div>
@@ -477,7 +479,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Furniture Stores</p>
                         </div>
                     </div>
@@ -488,7 +490,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Interior Designers</p>
                         </div>
                     </div>
@@ -499,7 +501,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">House Cleaning</p>
                         </div>
                     </div>
@@ -510,7 +512,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Water Suppliers</p>
                         </div>
                     </div>
@@ -528,7 +530,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Hospitals</p>
                         </div>
                     </div>
@@ -539,7 +541,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Clinics</p>
                         </div>
                     </div>
@@ -550,7 +552,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Medical Stores</p>
                         </div>
                     </div>
@@ -561,7 +563,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Dentists</p>
                         </div>
                     </div>
@@ -572,7 +574,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Diagnostic Labs</p>
                         </div>
                     </div>
@@ -583,7 +585,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Physiotherapy</p>
                         </div>
                     </div>
@@ -594,7 +596,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f55f5f]">Eye Clinics</p>
                         </div>
                     </div>
@@ -605,7 +607,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Veterinary Clinics</p>
                         </div>
                     </div>
@@ -624,7 +626,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Schools</p>
                         </div>
                     </div>
@@ -635,7 +637,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Colleges</p>
                         </div>
                     </div>
@@ -646,7 +648,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Coaching Centers</p>
                         </div>
                     </div>
@@ -657,7 +659,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Tuition Classes</p>
                         </div>
                     </div>
@@ -668,7 +670,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Driving Schools</p>
                         </div>
                     </div>
@@ -679,7 +681,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Study Abroad Consultants</p>
                         </div>
                     </div>
@@ -690,7 +692,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Computer Training</p>
                         </div>
                     </div>
@@ -701,7 +703,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Libraries</p>
                         </div>
                     </div>
@@ -720,7 +722,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Mobile Repair</p>
                         </div>
                     </div>
@@ -731,7 +733,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Laptop Repair</p>
                         </div>
                     </div>
@@ -742,7 +744,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Electricians</p>
                         </div>
                     </div>
@@ -753,7 +755,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Plumbers</p>
                         </div>
                     </div>
@@ -764,7 +766,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Car Repair</p>
                         </div>
                     </div>
@@ -775,7 +777,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Bike Service</p>
                         </div>
                     </div>
@@ -786,7 +788,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">AC Repair</p>
                         </div>
                     </div>
@@ -797,7 +799,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Laundry Services</p>
                         </div>
                     </div>
@@ -817,7 +819,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Event Organisers</p>
                         </div>
                     </div>
@@ -828,7 +830,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Wedding Planning</p>
                         </div>
                     </div>
@@ -839,7 +841,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Rent & Hire</p>
                         </div>
                     </div>
@@ -850,7 +852,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Packagers & Movers</p>
                         </div>
                     </div>
@@ -861,7 +863,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Courier Services</p>
                         </div>
                     </div>
@@ -872,7 +874,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Photographers</p>
                         </div>
                     </div>
@@ -883,7 +885,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Gym</p>
                         </div>
                     </div>
@@ -894,7 +896,7 @@
                     <div
                         class="h-[120px] w-[120px] text-center border border-[#a29b9b83] rounded-lg flex justify-center items-center hover:shadow-md">
                         <div>
-                            <img src="./image/bakery.png" alt="" class="w-[80px] h-[80px] mx-auto">
+                            <img src="./image/bakery.png" alt="" class="w-20 h-20 mx-auto">
                             <p class="font-semibold text-[#5f5f5f]">Pet Shops</p>
                         </div>
                     </div>

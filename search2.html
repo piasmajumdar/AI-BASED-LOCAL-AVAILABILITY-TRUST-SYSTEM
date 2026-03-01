@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Discovery</title>
+    <link rel="shortcut icon" href="./image/LD_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="open-sans">
+    <!-- Header -->
+    <header class="pt-5 bg-gray-700 text-white border-b border-[#b8a9a9] px-2">
+        <!-- Navbar -->
+        <nav class="container mx-auto flex justify-between">
+            <div>
+                <!-- Title logo -->
+                <div class="mb-5">
+                    <a href="./index.html">
+                        <h4 class="text-3xl font-bold"><span class="text-[red]">Local</span> Discovery</h4>
+                    </a>
+                </div>
+            </div>
+            <!-- Search Section -->
+            <div>
+
+                <div class="border-2 border-[#5b5454] w-60 lg:w-[400px] h-14 rounded-md shadow-md p-2 flex items-center justify-between
+         focus-within:border-gray-500 focus-within:ring-2 focus-within:ring-gray-300
+         hover:border-gray-400 transition-all duration-200">
+
+                    <input placeholder="Search for shops, services, or essentials..."
+                        class="flex-1 outline-none border-none bg-transparent px-2 text-sm" type="search" name="search"
+                        id="search-box" />
+
+                    <!-- Search button -->
+                    <button class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer 
+           bg-gradient-to-r from-[#ff8938] to-[#ff0000] 
+           rounded-md shadow-lg">
+                        <i class="fa-solid fa-magnifying-glass-location"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Nav right side buttons -->
+            <div>
+                <ul class="flex gap-4">
+                    <li class="btn-list-shop hover:bg-[#b4afaf59] p-2  rounded-md cursor-pointer text-[18px]"><a
+                            href=""><i class="fa-solid fa-shop"></i> List your shop</a>
+                    </li>
+                    <a href="./login.html">
+                        <li
+                            class="btn-login bg-linear-to-r from-[#ff8938] to-[#ff0000] text-white font-bold p-2 w-[100px] hover:shadow-lg text-center rounded-md cursor-pointer text-[18px]">
+                            Login</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+</body>
+
+</html>
