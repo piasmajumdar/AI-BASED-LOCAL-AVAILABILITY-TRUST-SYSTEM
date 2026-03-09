@@ -6,12 +6,18 @@ const useLocationBtn = document.getElementById("useLocation");
 
 // Redirect to search page
 function goToSearch() {
-    const query = document.getElementById('your-search-input-id').value.trim();
+    const query = document.getElementById('search-box').value.trim();
     if (query) {
         window.location.href = `search.html?q=${encodeURIComponent(query)}`;
     }
 }
 
+const handleEnter = (event) => {
+    if (event.key == 'Enter') {
+        event.preventDefault();
+        document.getElementById("search-btn").click();
+    }
+}
 
 // Toggle dropdown
 cityBtn.addEventListener("click", (e) => {

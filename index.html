@@ -55,7 +55,7 @@
             <p class="manrope my-5 text-[1.2rem]">Find what you need near you...</p>
             <div class="flex flex-wrap gap-1 items-center">
                 <input placeholder="Search for shops, services, or essentials..." type="search" name="search"
-                    id="search-box" class="border-2 border-[#5b5454] w-60 lg:w-100 h-15 rounded-md shadow-md p-2">
+                    onkeydown="handleEnter(event)" id="search-box" class="border-2 border-[#5b5454] w-60 lg:w-100 h-15 rounded-md shadow-md p-2">
 
                 <!-- Dropdown Location -->
                 <div class="relative inline-block text-left">
@@ -106,7 +106,7 @@
 
 
                 <!-- Search button -->
-                <button
+                <button onclick="goToSearch()" id="search-btn"
                     class="text-lg py-2 px-5 ml-2 text-white font-semibold cursor-pointer  bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-md shadow-lg">Search
                     <i class="fa-solid fa-magnifying-glass-location"></i></button>
             </div>

@@ -1,3 +1,11 @@
+// Read query from URL and pre-fill search box
+const urlParams = new URLSearchParams(window.location.search);
+const urlQuery = urlParams.get('q');
+if (urlQuery) {
+  document.getElementById('searchInput').value = urlQuery;
+}
+
+
 // ═══════════════════════════════════════════════════════
 // VIT-AP Location DATA — Vijayawada (16.4922, 80.5004)
 // ═══════════════════════════════════════════════════════
