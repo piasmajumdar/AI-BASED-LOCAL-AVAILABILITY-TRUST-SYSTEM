@@ -4,6 +4,15 @@ const selectedCity = document.getElementById("selected-city");
 const cityItems = document.querySelectorAll(".city-item");
 const useLocationBtn = document.getElementById("useLocation");
 
+// Redirect to search page
+function goToSearch() {
+    const query = document.getElementById('your-search-input-id').value.trim();
+    if (query) {
+        window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+    }
+}
+
+
 // Toggle dropdown
 cityBtn.addEventListener("click", (e) => {
     e.stopPropagation();
