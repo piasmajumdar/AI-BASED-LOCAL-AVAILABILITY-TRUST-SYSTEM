@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════════
 // VIT-AP Location DATA — Vijayawada (16.4922, 80.5004)
 // ═══════════════════════════════════════════════════════
-const BASE_LAT = 16.492241, BASE_LNG = 80.500429;
+let BASE_LAT = 16.492241, BASE_LNG = 80.500429;
 
 const IMG = {
     burger: ['https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&q=80', 'https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80', 'https://images.unsplash.com/photo-1625758166190-b2b5e1efed18?w=600&q=80', 'https://images.unsplash.com/photo-1586816001966-79b736744398?w=600&q=80', 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600&q=80'],
@@ -146,8 +146,14 @@ function mkCard(shop) {
     d.addEventListener('click', () => openDetail(shop.id)); return d;
 }
 function renderList(arr) {
-    const list = document.getElementById('shopList'); list.innerHTML = '';
+    const list = document.getElementById('shopList');
+    list.innerHTML = '';
+    // document.getElementById('resultCount').textContent = arr.length;
+    const city = localStorage.getItem('selectedCity') || 'Vijayawada';
     document.getElementById('resultCount').textContent = arr.length;
+    document.querySelector('.result-count').innerHTML =
+        `<span id="resultCount">${arr.length}</span> shops near ${city}`;
+
     if (!arr.length) { list.innerHTML = '<div class="no-results"><i class="fa-solid fa-store-slash"></i><p>No shops found. Try adjusting your filters.</p></div>'; return; }
     arr.forEach(s => list.appendChild(mkCard(s)));
 }
@@ -447,6 +453,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlQuery = urlParams.get('q');
     if (urlQuery) {
         document.getElementById('searchInput').value = urlQuery;
+    }
+
+    // ── Read location from localStorage (set by dashboard) ──
+    const savedCity = localStorage.getItem('selectedCity');
+    const savedLat = parseFloat(localStorage.getItem('userLat'));
+    const savedLon = parseFloat(localStorage.getItem('userLon'));
+
+    // Override BASE_LAT / BASE_LNG if we have real coords
+    if (!isNaN(savedLat) && !isNaN(savedLon)) {
+        BASE_LAT = savedLat;
+        BASE_LNG = savedLon;
     }
 
     initMap(); applyFilters();
