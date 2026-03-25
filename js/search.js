@@ -180,7 +180,7 @@ const SHOPS = [
     address: "Near Masid Road, Mandadam, Velgapudi, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:00 PM",
     warning: null,
-    tags: ["fried rice", "noodles", "biryani", "chicken", "fast food", "budget"],
+    tags: ["fried rice", "noodles", "biriyani", "chicken", "fast food", "budget"],
     aiReason: "Wide variety of budget-friendly fast food items with strong local popularity, especially for fried rice and starters.",
     products: [
       { name: "Chicken Fried Rice", price: "₹80" },
@@ -210,9 +210,9 @@ const SHOPS = [
       { name: "Veg Manchurian Fried Rice", price: "₹60" },
       { name: "Veg Manchurian Noodles", price: "₹60" },
 
-      { name: "Chicken Dum Biryani", price: "₹130" },
-      { name: "Chicken Fry Biryani", price: "₹140" },
-      { name: "Chicken Lollipop Biryani", price: "₹150" }
+      { name: "Chicken Dum biriyani", price: "₹130" },
+      { name: "Chicken Fry biriyani", price: "₹140" },
+      { name: "Chicken Lollipop biriyani", price: "₹150" }
     ],
     reviews: [
       {
@@ -315,7 +315,7 @@ const SHOPS = [
     address: "Gachu Centre, Vijayawada-Amaravathi Road, Mandadam, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:30 PM",
     warning: null,
-    tags: ["restaurant", "biryani", "non-veg", "family dining", "curries", "premium"],
+    tags: ["restaurant", "biriyani", "non-veg", "family dining", "curries", "premium"],
     aiReason: "Premium multi-cuisine restaurant with extensive menu and strong non-veg options.",
     products: [
       { name: "Golden Fried Mushroom", price: "₹280" },
@@ -384,13 +384,13 @@ const SHOPS = [
       { name: "Chicken Hakka Noodles", price: "₹280" },
       { name: "Chicken Schezwan Noodles", price: "₹299" },
 
-      { name: "Fried Chicken Biryani", price: "₹450" },
-      { name: "Special Chicken Biryani", price: "₹500" },
-      { name: "Prawns Biryani", price: "₹500" },
-      { name: "Fish Fried Biryani", price: "₹429" },
-      { name: "Chicken Wings Biryani", price: "₹469" },
-      { name: "Chicken Mughlai Biryani", price: "₹469" },
-      { name: "Veg Biryani", price: "₹359" },
+      { name: "Fried Chicken biriyani", price: "₹450" },
+      { name: "Special Chicken biriyani", price: "₹500" },
+      { name: "Prawns biriyani", price: "₹500" },
+      { name: "Fish Fried biriyani", price: "₹429" },
+      { name: "Chicken Wings biriyani", price: "₹469" },
+      { name: "Chicken Mughlai biriyani", price: "₹469" },
+      { name: "Veg biriyani", price: "₹359" },
 
       { name: "Plain Rice", price: "₹75" },
       { name: "Curd Rice", price: "₹150" },
@@ -407,7 +407,7 @@ const SHOPS = [
         init: "R",
         rating: 5,
         date: "2 days ago",
-        text: "Excellent restaurant with a wide menu. Chicken biryani and butter chicken are top class.",
+        text: "Excellent restaurant with a wide menu. Chicken biriyani and butter chicken are top class.",
         photos: [],
         helpful: 42,
         voted: false
@@ -446,7 +446,7 @@ const SHOPS = [
     address: "Penumaka-Amaravathi Road, Malkapuram, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:30 PM",
     warning: null,
-    tags: ["restaurant", "tandoori", "biryani", "non-veg", "family dining", "premium"],
+    tags: ["restaurant", "tandoori", "biriyani", "non-veg", "family dining", "premium"],
     aiReason: "Extensive premium menu with strong tandoori and non-veg offerings, consistent quality and variety.",
     products: [
       { name: "Veg Corn Soup", price: "₹160" },
@@ -545,23 +545,23 @@ const SHOPS = [
       { name: "Butter Roti", price: "₹40" },
       { name: "Roti", price: "₹35" },
 
-      { name: "Biryani Rice", price: "₹230" },
+      { name: "biriyani Rice", price: "₹230" },
       { name: "White Rice", price: "₹100" },
       { name: "Curd Rice", price: "₹120" },
       { name: "Special Curd Rice", price: "₹200" },
 
-      { name: "Veg Biryani", price: "₹300" },
-      { name: "Special Veg Biryani", price: "₹310" },
-      { name: "Veg Ulavacharu Biryani", price: "₹320" },
-      { name: "Kaju Biryani", price: "₹360" },
-      { name: "Special Kaju Biryani", price: "₹400" },
-      { name: "Mushroom Biryani", price: "₹310" },
-      { name: "Special Mushroom Biryani", price: "₹360" },
-      { name: "Paneer Biryani", price: "₹340" },
-      { name: "Special Paneer Biryani", price: "₹360" },
-      { name: "Paneer Tikka Biryani", price: "₹400" },
-      { name: "Bheemasena Special Veg Biryani", price: "₹410" },
-      { name: "Paneer Bucket Biryani", price: "₹1300" }
+      { name: "Veg biriyani", price: "₹300" },
+      { name: "Special Veg biriyani", price: "₹310" },
+      { name: "Veg Ulavacharu biriyani", price: "₹320" },
+      { name: "Kaju biriyani", price: "₹360" },
+      { name: "Special Kaju biriyani", price: "₹400" },
+      { name: "Mushroom biriyani", price: "₹310" },
+      { name: "Special Mushroom biriyani", price: "₹360" },
+      { name: "Paneer biriyani", price: "₹340" },
+      { name: "Special Paneer biriyani", price: "₹360" },
+      { name: "Paneer Tikka biriyani", price: "₹400" },
+      { name: "Bheemasena Special Veg biriyani", price: "₹410" },
+      { name: "Paneer Bucket biriyani", price: "₹1300" }
     ],
     reviews: [
       {
@@ -609,8 +609,8 @@ const SHOPS = [
     address: "Main Road, Opposite to Z.P.H.School, Inside Hotel Balabhadra Grand, Mandadam, Malkapuram, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:00 PM",
     warning: null,
-    tags: ["restaurant", "biryani", "tandoori", "seafood", "family dining"],
-    aiReason: "Strong variety of seafood, chicken starters and biryanis with consistent pricing and popularity.",
+    tags: ["restaurant", "biriyani", "tandoori", "seafood", "family dining"],
+    aiReason: "Strong variety of seafood, chicken starters and biriyanis with consistent pricing and popularity.",
 
     products: [
       { name: "Chicken Lollipop", price: "₹319" },
@@ -690,18 +690,18 @@ const SHOPS = [
       { name: "2 Phulka", price: "₹39" },
       { name: "Tandoori Butter Roti", price: "₹59" },
 
-      { name: "Cashew Biryani", price: "₹259" },
-      { name: "Mushroom Biryani", price: "₹239" },
-      { name: "Paneer Biryani", price: "₹259" },
-      { name: "Veg Dum Biryani", price: "₹229" },
-      { name: "Egg Biryani", price: "₹279" },
-      { name: "Special Chicken Biryani", price: "₹359" },
-      { name: "Chicken Wings Biryani", price: "₹329" },
-      { name: "Chicken Tikka Biryani", price: "₹329" },
-      { name: "Chicken Fried Biryani", price: "₹329" },
-      { name: "Chicken Dum Biryani", price: "₹329" },
-      { name: "Fish Biryani", price: "₹389" },
-      { name: "Prawns Biryani", price: "₹399" }
+      { name: "Cashew biriyani", price: "₹259" },
+      { name: "Mushroom biriyani", price: "₹239" },
+      { name: "Paneer biriyani", price: "₹259" },
+      { name: "Veg Dum biriyani", price: "₹229" },
+      { name: "Egg biriyani", price: "₹279" },
+      { name: "Special Chicken biriyani", price: "₹359" },
+      { name: "Chicken Wings biriyani", price: "₹329" },
+      { name: "Chicken Tikka biriyani", price: "₹329" },
+      { name: "Chicken Fried biriyani", price: "₹329" },
+      { name: "Chicken Dum biriyani", price: "₹329" },
+      { name: "Fish biriyani", price: "₹389" },
+      { name: "Prawns biriyani", price: "₹399" }
     ],
 
     reviews: [
@@ -711,7 +711,7 @@ const SHOPS = [
         init: "N",
         rating: 5,
         date: "2 days ago",
-        text: "Amazing variety of starters, especially seafood. Biryani is also very tasty.",
+        text: "Amazing variety of starters, especially seafood. biriyani is also very tasty.",
         photos: [],
         helpful: 36,
         voted: false
@@ -907,15 +907,15 @@ const SHOPS = [
     address: "Mandadam post, beside Sri Kanaka Dhurga Chicken Center, Mandadam Centre, Thullur Mandal, Velgapudi, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:00 PM",
     warning: null,
-    tags: ["biryani", "non-veg", "restaurant", "lunch", "dinner"],
-    aiReason: "Popular local spot for affordable and flavorful biryanis, especially known for chicken and mutton varieties.",
+    tags: ["biriyani", "non-veg", "restaurant", "lunch", "dinner"],
+    aiReason: "Popular local spot for affordable and flavorful biriyanis, especially known for chicken and mutton varieties.",
 
     products: [
-      { name: "Chicken Dum Biryani", price: "₹200" },
-      { name: "Chicken Fry Biryani", price: "₹200" },
-      { name: "Chicken Mix Biryani", price: "₹200" },
-      { name: "Mutton Biryani", price: "₹370" },
-      { name: "Prawns Biryani", price: "₹270" }
+      { name: "Chicken Dum biriyani", price: "₹200" },
+      { name: "Chicken Fry biriyani", price: "₹200" },
+      { name: "Chicken Mix biriyani", price: "₹200" },
+      { name: "Mutton biriyani", price: "₹370" },
+      { name: "Prawns biriyani", price: "₹270" }
     ],
 
     reviews: [
@@ -925,7 +925,7 @@ const SHOPS = [
         init: "S",
         rating: 5,
         date: "2 days ago",
-        text: "Very tasty biryani, especially chicken dum. Good quantity for the price.",
+        text: "Very tasty biriyani, especially chicken dum. Good quantity for the price.",
         photos: [],
         helpful: 12,
         voted: false
@@ -936,7 +936,7 @@ const SHOPS = [
         init: "K",
         rating: 4,
         date: "5 days ago",
-        text: "Affordable and delicious. Mutton biryani is worth trying.",
+        text: "Affordable and delicious. Mutton biriyani is worth trying.",
         photos: [],
         helpful: 8,
         voted: false
@@ -964,37 +964,37 @@ const SHOPS = [
     address: "Velagapudi W Rd, Malkapuram, Andhra Pradesh 522241",
     hours: "11:00 AM – 11:30 PM",
     warning: null,
-    tags: ["biryani", "family restaurant", "non-veg", "tandoori", "fried rice", "seafood"],
-    aiReason: "Highly popular family restaurant offering a wide variety of biryanis, fried rice, and tandoori dishes with strong local reputation and large portion options.",
+    tags: ["biriyani", "family restaurant", "non-veg", "tandoori", "fried rice", "seafood"],
+    aiReason: "Highly popular family restaurant offering a wide variety of biriyanis, fried rice, and tandoori dishes with strong local reputation and large portion options.",
 
     products: [
-      { name: "Chicken Dum Biryani", price: "₹279" },
-      { name: "SP Chicken Biryani", price: "₹339" },
-      { name: "Chicken Fry Piece Biryani", price: "₹319" },
-      { name: "Chicken Tikka Biryani", price: "₹359" },
-      { name: "Chicken Wings Biryani", price: "₹419" },
-      { name: "Chicken Moghalai Biryani", price: "₹389" },
-      { name: "Mutton Biryani", price: "₹519" },
-      { name: "Mutton SP Biryani", price: "₹609" },
-      { name: "Mutton Moghalai Biryani", price: "₹569" },
-      { name: "Fish Biryani", price: "₹479" },
-      { name: "Prawns Biryani", price: "₹479" },
-      { name: "SP Prawns Biryani", price: "₹579" },
+      { name: "Chicken Dum biriyani", price: "₹279" },
+      { name: "SP Chicken biriyani", price: "₹339" },
+      { name: "Chicken Fry Piece biriyani", price: "₹319" },
+      { name: "Chicken Tikka biriyani", price: "₹359" },
+      { name: "Chicken Wings biriyani", price: "₹419" },
+      { name: "Chicken Moghalai biriyani", price: "₹389" },
+      { name: "Mutton biriyani", price: "₹519" },
+      { name: "Mutton SP biriyani", price: "₹609" },
+      { name: "Mutton Moghalai biriyani", price: "₹569" },
+      { name: "Fish biriyani", price: "₹479" },
+      { name: "Prawns biriyani", price: "₹479" },
+      { name: "SP Prawns biriyani", price: "₹579" },
 
-      { name: "Mourya SP Chicken Biryani", price: "₹420" },
-      { name: "Mourya SP Mutton Biryani", price: "₹700" },
-      { name: "Mourya SP Veg Biryani", price: "₹250" },
+      { name: "Mourya SP Chicken biriyani", price: "₹420" },
+      { name: "Mourya SP Mutton biriyani", price: "₹700" },
+      { name: "Mourya SP Veg biriyani", price: "₹250" },
       { name: "Mourya SP Chicken Family Pack", price: "₹1500" },
       { name: "Mourya SP Chicken Curry", price: "₹330" },
 
-      { name: "Biryani Rice", price: "₹180" },
-      { name: "Biryani Rice Half", price: "₹130" },
-      { name: "Baby Corn Biryani", price: "₹230" },
-      { name: "Egg Biryani", price: "₹270" },
-      { name: "Kaju Biryani", price: "₹290" },
-      { name: "Mushroom Biryani", price: "₹260" },
-      { name: "Veg Biryani", price: "₹250" },
-      { name: "Paneer Biryani", price: "₹270" },
+      { name: "biriyani Rice", price: "₹180" },
+      { name: "biriyani Rice Half", price: "₹130" },
+      { name: "Baby Corn biriyani", price: "₹230" },
+      { name: "Egg biriyani", price: "₹270" },
+      { name: "Kaju biriyani", price: "₹290" },
+      { name: "Mushroom biriyani", price: "₹260" },
+      { name: "Veg biriyani", price: "₹250" },
+      { name: "Paneer biriyani", price: "₹270" },
       { name: "Veg Palav", price: "₹230" },
 
       { name: "Chicken Dum Family Pack", price: "₹849" },
@@ -1140,8 +1140,8 @@ const SHOPS = [
     address: "Mandadam, Malkapuram, Andhra Pradesh 522241",
     hours: "11:00 AM – 10:30 PM",
     warning: null,
-    tags: ["biryani", "budget", "non-veg", "quick meals"],
-    aiReason: "Affordable biryani spot known for simple and budget-friendly chicken biryani options.",
+    tags: ["biriyani", "budget", "non-veg", "quick meals"],
+    aiReason: "Affordable biriyani spot known for simple and budget-friendly chicken biriyani options.",
 
     products: [
       { name: "Chicken Biriyani", price: "₹150" },
@@ -1151,6 +1151,390 @@ const SHOPS = [
 
     reviews: []
   },
+  {
+    id: 19,
+    name: "Sri Veeranjaneya Sweets and Bakery",
+    category: "Bakery",
+    emoji: "🍰",
+    coverImg: "../image/shops/id_19/1.jpeg",
+    images: [
+      "../image/shops/id_19/1.jpeg"
+    ],
+    lat: 16.520954,
+    lng: 80.524123,
+    distance: 2.2,
+    rating: 4.3,
+    reviewCount: 95,
+    trust: 76,
+    isOpen: true,
+    aiRecommended: true,
+    phone: "+91 99663 38055",
+    address: "Hindi Master Street, Near central bank, Mandadam, Velgapudi, Andhra Pradesh 522241",
+    hours: "9:00 AM – 10:30 PM",
+    warning: null,
+    tags: ["bakery", "desserts", "snacks", "pizza", "sweets"],
+    aiReason: "Popular bakery offering a variety of desserts, puffs, and pizzas at affordable prices, ideal for quick snacks and sweet cravings.",
+
+    products: [
+      { name: "Browny", price: "₹88" },
+      { name: "Mudpie", price: "₹166" },
+      { name: "Chocolate Lollypop", price: "₹140" },
+      { name: "Doughnuts", price: "₹88" },
+      { name: "Choco Lava", price: "₹88" },
+      { name: "Glass Deserts", price: "₹101" },
+      { name: "Passion Delight", price: "₹166" },
+      { name: "Cheese Cake", price: "₹166" },
+
+      { name: "Special Veg", price: "₹270" },
+      { name: "Special Chicken Pizza", price: "₹335" },
+
+      { name: "Veg Puff", price: "₹36" },
+      { name: "Egg Puff", price: "₹36" },
+      { name: "Chicken Puff", price: "₹43" },
+      { name: "Dil Pasand", price: "₹88" },
+      { name: "Bread", price: "₹62" }
+    ],
+
+    reviews: []
+  },
+  {
+    id: 20,
+    name: "Meeseva",
+    category: "Service",
+    emoji: "🏢",
+    coverImg: "../image/shops/id_20/1.jpeg",
+    images: [
+      "../image/shops/id_20/1.jpeg"
+    ],
+    lat: 16.521379,
+    lng: 80.521231,
+    distance: 3.2,
+    rating: 0,
+    reviewCount: 0,
+    trust: null,
+    isOpen: true,
+    aiRecommended: null,
+    phone: "+91 97053 05202",
+    address: "1-47, Main Road, Opposite Zphs High School, Mandadam, Malkapuram, Andhra Pradesh 522241",
+    hours: "10:00 AM - 5:00 PM",
+    warning: null,
+    tags: ["government service", "documents", "utility", "official"],
+    aiReason: "Reliable government service center for document processing, certificates, and utility services.",
+
+    products: [],
+
+    reviews: [
+    ]
+  },
+  {
+    id: 21,
+    name: "Garima Fruit Shop",
+    category: "Shop",
+    emoji: "🍎",
+    coverImg: "../image/shops/id_21/1.jpeg",
+    images: [
+      "../image/shops/id_21/1.jpeg"
+    ],
+    lat: 16.520250,
+    lng: 80.523637,
+    distance: 2.1,
+    rating: 4.1,
+    reviewCount: 34,
+    trust: 73,
+    isOpen: true,
+    aiRecommended: false,
+    phone: null,
+    address: "Near Amrutha Jewelery, Mandadam Center, Mandadam, Andhra Pradesh,522241",
+    hours: "7:00 AM – 9:00 PM",
+    warning: null,
+    tags: ["fruits", "fresh", "local shop", "grocery"],
+    aiReason: "Local fruit shop offering fresh seasonal fruits at reasonable per kg pricing.",
+
+    products: [
+      { name: "Banana", price: "80-90/- Per KG" },
+      { name: "Apple (Simla)", price: "110/- per kg" },
+      { name: "Mango", price: "117-125/- Per kg" }
+    ],
+
+    reviews: []
+  },
+  {
+    id: 22,
+    name: "Bank Of Baroda",
+    category: "Bank",
+    emoji: "🏦",
+    coverImg: "../image/shops/id_22/1.png",
+    images: [
+      "../image/shops/id_22/1.png"
+    ],
+    lat: 16.520782,
+    lng: 80.522209,
+    distance: 2.1,
+    rating: 4,
+    reviewCount: 0,
+    trust: 88,
+    isOpen: true,
+    aiRecommended: false,
+    phone: null,
+    address: "AP Secratariat Road, Near Ram Boys Hostel, Mandadam, Velagapudi, Andhra Pradesh,522503",
+    hours: "10:00 AM – 4:00 PM",
+    warning: null,
+    tags: ["bank", "atm", "finance", "official"],
+    aiReason: "Trusted banking service with ATM facility available next to the branch for convenient access.",
+
+    products: [],
+
+    reviews: [
+      {
+        id: 1,
+        name: "Anil K",
+        init: "A",
+        rating: 4,
+        date: "4 days ago",
+        text: "Good service and ATM availability makes it convenient.",
+        photos: [],
+        helpful: 5,
+        voted: false
+      }
+    ],
+
+    remark: "ATM Next To Bank"
+  },
+  {
+    id: 23,
+    name: "State Bank Of India",
+    category: "Bank",
+    emoji: "🏦",
+    coverImg: "../image/shops/id_23/1.png",
+    images: [
+      "../image/shops/id_23/1.png"
+    ],
+    lat: 16.518333,
+    lng: 80.527479,
+    distance: 2.4,
+    rating: 4.3,
+    reviewCount: 52,
+    trust: 90,
+    isOpen: true,
+    aiRecommended: true,
+    phone: null,
+    address: "Amaravathi-Vijayawada Road, Mandadam, Velgapudi, Andhra Pradesh 522503",
+    hours: "10:00 AM – 4:00 PM",
+    warning: null,
+    tags: ["bank", "atm", "finance", "official"],
+    aiReason: "Reliable public sector bank with ATM facility available nearby, suitable for regular banking needs.",
+
+    products: [],
+
+    reviews: [
+      {
+        id: 1,
+        name: "Sandeep R",
+        init: "S",
+        rating: 4,
+        date: "3 days ago",
+        text: "Good banking services and easy ATM access.",
+        photos: [],
+        helpful: 7,
+        voted: false
+      }
+    ],
+
+    remark: "ATM Next To Bank"
+  },
+  {
+    id: 24,
+    name: "Union Bank Of India",
+    category: "Bank",
+    emoji: "🏦",
+    coverImg: "../image/shops/id_24/1.jpeg",
+    images: [
+      "../image/shops/id_24/1.jpeg"
+    ],
+    lat: 16.520194,
+    lng: 80.525223,
+    distance: 2.1,
+    rating: 4.0,
+    reviewCount: 36,
+    trust: 86,
+    isOpen: true,
+    aiRecommended: false,
+    phone: null,
+    address: "Way to Seed Access Road, Opposite To Mandadam Grama Sachivalayam, Mandadam, Thullur Mandal, Andhra Pradesh 522503",
+    hours: "10:00 AM – 4:00 PM",
+    warning: "No ATM available nearby",
+    tags: ["bank", "finance", "official"],
+    aiReason: "Standard banking services available, but lacks nearby ATM facility which may affect convenience.",
+
+    products: [],
+
+    reviews: [
+      {
+        id: 1,
+        name: "Kiran P",
+        init: "K",
+        rating: 3,
+        date: "5 days ago",
+        text: "Service is okay but no ATM nearby makes it inconvenient.",
+        photos: [],
+        helpful: 4,
+        voted: false
+      }
+    ],
+
+    remark: "There's No ATM Inside or near Bank"
+  },
+  {
+    id: 25,
+    name: "Indian ATM",
+    category: "ATM",
+    emoji: "🏧",
+    coverImg: "../image/shops/id_25/1.jpeg",
+    images: [
+      "../image/shops/id_25/1.jpeg"
+    ],
+    lat: 16.520028,
+    lng: 80.524083,
+    distance: 2.1,
+    rating: 4.1,
+    reviewCount: 22,
+    trust: 80,
+    isOpen: true,
+    aiRecommended: true,
+    phone: null,
+    address: "Mandadam Center, Mandadam, Velgapudi, Andhra Pradesh 522503",
+    hours: "24 Hours",
+    warning: null,
+    tags: ["atm", "cash", "24x7", "finance"],
+    aiReason: "Convenient ATM with availability of multiple denominations including ₹100, ₹200, and ₹500 notes.",
+
+    products: [],
+
+    reviews: [
+      {
+        id: 1,
+        name: "Rohit S",
+        init: "R",
+        rating: 4,
+        date: "2 days ago",
+        text: "Easy to access and usually has all note denominations available.",
+        photos: [],
+        helpful: 3,
+        voted: false
+      }
+    ],
+
+    remark: "100,200,500 Notes Available"
+  },
+  {
+    id: 26,
+    name: "Bhavani Xerox 24",
+    category: "Service",
+    emoji: "📄",
+    coverImg: "../image/shops/id_26/1.jpeg",
+    images: [
+      "../image/shops/id_26/1.jpeg"
+    ],
+    lat: 16.520278,
+    lng: 80.523917,
+    distance: 2.1,
+    rating: 4.2,
+    reviewCount: 27,
+    trust: 78,
+    isOpen: true,
+    aiRecommended: true,
+    phone: "+91 77319 79709",
+    address: "Shop No- 2 Mandadam Center, Mandadam, Andhra Pradesh",
+    hours: "8:00 AM – 10:00 PM",
+    warning: null,
+    tags: ["xerox", "printing", "documents", "service"],
+    aiReason: "Convenient local shop for photocopying, printing, and document-related services.",
+
+    products: [],
+
+    reviews: [
+      {
+        id: 1,
+        name: "Teja K",
+        init: "T",
+        rating: 4,
+        date: "3 days ago",
+        text: "Good place for quick xerox and printing work.",
+        photos: [],
+        helpful: 4,
+        voted: false
+      }
+    ]
+  },
+  {
+    id: 27,
+    name: "999 Cafe",
+    category: "Cafe",
+    emoji: "🍔",
+    coverImg: "../image/shops/id_27/1.jpeg",
+    images: [
+      ".././image/shops/id_27/1.jpeg"
+    ],
+    lat: 16.520222,
+    lng: 80.523917,
+    distance: 2.1,
+    rating: 4.3,
+    reviewCount: 61,
+    trust: 79,
+    isOpen: true,
+    aiRecommended: true,
+    phone: "+91 79975 14403",
+    address: "Mandadam, Center, Mandadam, Velgapudi, Andhra Pradesh 522503",
+    hours: "11:00 AM – 11:00 PM",
+    warning: null,
+    tags: ["cafe", "fast food", "chicken", "burgers", "pizza", "combos"],
+    aiReason: "Popular fast food cafe known for chicken items, burgers, and value meal combos.",
+
+    products: [
+      { name: "Chicken Wings (5 pcs)", price: "₹140" },
+      { name: "Chicken Wings (10 pcs)", price: "₹220" },
+
+      { name: "Boneless Strips (5 pcs)", price: "₹190" },
+      { name: "Boneless Strips (10 pcs)", price: "₹340" },
+
+      { name: "Lollipop (5 pcs)", price: "₹200" },
+      { name: "Lollipop (10 pcs)", price: "₹350" },
+
+      { name: "Paneer Popcorn Small (100g)", price: "₹130" },
+      { name: "Paneer Popcorn Medium (150g)", price: "₹180" },
+      { name: "Paneer Popcorn Large (220g)", price: "₹220" },
+
+      { name: "Chicken Popcorn Small (100g)", price: "₹99" },
+      { name: "Chicken Popcorn Medium (150g)", price: "₹149" },
+      { name: "Chicken Popcorn Large (220g)", price: "₹199" },
+
+      { name: "Veg Burger", price: "₹89" },
+      { name: "Crispy Patty Burger (Veg/Non-Veg)", price: "₹99" },
+      { name: "Fried Chicken Burger", price: "₹109" },
+      { name: "999 Special Burger", price: "₹130" },
+
+      { name: "Veg Sandwich", price: "₹130" },
+      { name: "Fried Chicken Sandwich", price: "₹140" },
+      { name: "Tandoori Mayo Sandwich", price: "₹145" },
+
+      { name: "Veg Roll", price: "₹99" },
+      { name: "Paneer Roll", price: "₹129" },
+      { name: "Chicken Roll", price: "₹139" },
+
+      { name: "Sweet Corn Pizza", price: "₹169" },
+      { name: "Paneer Pizza", price: "₹169" },
+      { name: "Chicken Pizza", price: "₹180" },
+      { name: "Tandoori Chicken Pizza", price: "₹180" },
+
+      { name: "Extra Cheese", price: "₹20" },
+
+      { name: "Meal Combo (Sandwich + Fries + Cool Drink)", price: "₹200" },
+      { name: "Meal Combo (B", price: "" }
+    ],
+
+    reviews: []
+  }
+
 
 
 ];
