@@ -1471,9 +1471,9 @@ const SHOPS = [
     name: "999 Cafe",
     category: "Cafe",
     emoji: "🍔",
-    coverImg: "../image/shops/id_27/1.jpeg",
+    coverImg: "../image/shops/id_27/id_27.jpeg.jpeg",
     images: [
-      ".././image/shops/id_27/1.jpeg"
+      "../image/shops/id_27/id_27.jpeg"
     ],
     lat: 16.520222,
     lng: 80.523917,
