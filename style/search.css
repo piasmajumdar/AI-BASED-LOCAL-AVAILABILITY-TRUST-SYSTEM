@@ -1305,3 +1305,46 @@ header {
     padding: 4px 14px;
     border-radius: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .detail-panel {
+        /* max-height:; */
+    }
+    .panel-header{
+        display: inline;
+    }
+    .detail-body {
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .detail-left {
+        overflow-y: visible;
+    }
+    .detail-right{
+        width: auto;
+    }
+    .main-layout {
+        overflow: hidden;
+    }
+    .left-panel {
+        width:auto;
+    }
+    .detail-tabs {
+        flex-wrap: wrap;
+    }
+    .btn-list, .btn-login{
+        display:none;
+    }
+    .right-panel {
+        
+    }
+    
+    
+    .trust-bar{
+        display: none;
+    }
+    .shop-card {
+        max-width: 100vw;
+    }
+}
