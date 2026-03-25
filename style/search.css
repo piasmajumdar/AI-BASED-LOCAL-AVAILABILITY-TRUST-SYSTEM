@@ -233,7 +233,7 @@ header {
 
 /* ── LEFT PANEL ── */
 .left-panel {
-    width: 430px;
+    width: 530px;
     min-width: 340px;
     flex-shrink: 0;
     display: flex;
