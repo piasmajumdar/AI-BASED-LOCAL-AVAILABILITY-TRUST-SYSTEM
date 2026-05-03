@@ -2656,6 +2656,21 @@ const SHOPS = [
 
 ];
 
+// const shopJSON = JSON.stringify(SHOPS);
+// console.log(shopJSON);
+
+// let SHOPS = [];
+
+// const getShopData = async() => {
+//   const res =await fetch("./js/dataShop.json");
+//   const data = await res.json();
+//   SHOPS = data;
+  
+// }
+// getShopData();
+
+
+
 // ═══════════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════════
