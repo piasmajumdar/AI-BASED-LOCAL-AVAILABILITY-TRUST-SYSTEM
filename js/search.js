@@ -56,8 +56,8 @@ const SHOPS = [
     name: "Ramarao Biriyani",
     category: "Biriyani",
     emoji: "🍛",
-    coverImg: "../image/shops/ramarao_biriyani_1.jpeg",
-    images: ["../image/shops/ramarao_biriyani_1.jpeg"],
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777852242/shops/id_7/1.jpg",
+    images: ["https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777852242/shops/id_7/1.jpg"],
     lat: 16.5217,
     lng: 80.5208,
     distance: 2.5,
@@ -107,9 +107,9 @@ const SHOPS = [
     name: "Ruchi Pulka Point",
     category: "Tiffin",
     emoji: "&#129368;",
-    coverImg: "../image/shops/id_8/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849576/shops/id_8/1.jpg",
     images: [
-      "../image/shops/id_8/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849576/shops/id_8/1.jpg"
     ],
     lat: 16.5209,
     lng: 80.5219,
@@ -244,9 +244,9 @@ const SHOPS = [
     name: "The Food Corner Fast Food Center",
     category: "Fast Food",
     emoji: "&#127836;",
-    coverImg: "../image/shops/id_10/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849532/shops/id_10/1.jpg",
     images: [
-      "../image/shops/id_10/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849532/shops/id_10/1.jpg"
     ],
     lat: 16.519673,
     lng: 80.524334,
@@ -299,9 +299,9 @@ const SHOPS = [
     name: "Vijayawada Junction Restaurant",
     category: "Restaurant",
     emoji: "&#127869;",
-    coverImg: "../image/shops/id_11/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849533/shops/id_11/1.jpg",
     images: [
-      "../image/shops/id_11/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849533/shops/id_11/1.jpg"
     ],
     lat: 16.519188,
     lng: 80.525862,
@@ -430,9 +430,9 @@ const SHOPS = [
     name: "Hotel Bheemasena",
     category: "Restaurant",
     emoji: "&#127869;",
-    coverImg: "../image/shops/id_12/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849535/shops/id_12/1.jpg",
     images: [
-      "../image/shops/id_12/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849535/shops/id_12/1.jpg"
     ],
     lat: 16.5245,
     lng: 80.5178,
@@ -593,9 +593,9 @@ const SHOPS = [
     name: "Dream Cafeteria",
     category: "Restaurant",
     emoji: "&#9749;",
-    coverImg: "../image/shops/id_13/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849536/shops/id_13/1.jpg",
     images: [
-      "../image/shops/id_13/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849536/shops/id_13/1.jpg"
     ],
     lat: 16.521234,
     lng: 80.522012,
@@ -734,9 +734,9 @@ const SHOPS = [
     name: "Snack Chat",
     category: "Cafe",
     emoji: "&#129380;",
-    coverImg: "../image/shops/id_14/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849538/shops/id_14/1.jpg",
     images: [
-      "../image/shops/id_14/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849538/shops/id_14/1.jpg"
     ],
     lat: 16.520434,
     lng: 80.525535,
@@ -891,9 +891,9 @@ const SHOPS = [
     name: "Hotel Sindhu",
     category: "Restaurant",
     emoji: "🍛",
-    coverImg: "../image/shops/id_15/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849539/shops/id_15/1.jpg",
     images: [
-      "../image/shops/id_15/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849539/shops/id_15/1.jpg"
     ],
     lat: 16.520234,
     lng: 80.523558,
@@ -948,9 +948,9 @@ const SHOPS = [
     name: "Sri Lakshmi Mourya Family Restaurant",
     category: "Restaurant",
     emoji: "🍽️",
-    coverImg: "../image/shops/id_16/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849540/shops/id_16/1.jpg",
     images: [
-      "../image/shops/id_16/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849540/shops/id_16/1.jpg"
     ],
     lat: 16.522786,
     lng: 80.520162,
@@ -1084,9 +1084,9 @@ const SHOPS = [
     name: "Hotel Aatidhyam",
     category: "Restaurant",
     emoji: "🍛",
-    coverImg: "../image/shops/id_17/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849541/shops/id_17/1.jpg",
     images: [
-      "../image/shops/id_17/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849541/shops/id_17/1.jpg"
     ],
     lat: 16.524574,
     lng: 80.517484,
@@ -1123,10 +1123,10 @@ const SHOPS = [
     name: "Hotel Bilal",
     category: "Restaurant",
     emoji: "🍛",
-    coverImg: "../image/shops/id_18/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849542/shops/id_18/1.jpg",
     images: [
-      "../image/shops/id_18/1.jpeg",
-      "../image/shops/id_18/2.jpeg",
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849542/shops/id_18/1.jpg",
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849543/shops/id_18/2.jpg",
     ],
     lat: 16.520968,
     lng: 80.522026,
@@ -1156,9 +1156,9 @@ const SHOPS = [
     name: "Sri Veeranjaneya Sweets and Bakery",
     category: "Bakery",
     emoji: "🍰",
-    coverImg: "../image/shops/id_19/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849544/shops/id_19/1.jpg",
     images: [
-      "../image/shops/id_19/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849544/shops/id_19/1.jpg"
     ],
     lat: 16.520954,
     lng: 80.524123,
@@ -1263,9 +1263,9 @@ const SHOPS = [
     name: "Bank Of Baroda",
     category: "Bank",
     emoji: "🏦",
-    coverImg: "../image/shops/id_22/1.png",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849545/shops/id_22/1.jpg",
     images: [
-      "../image/shops/id_22/1.png"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849545/shops/id_22/1.jpg"
     ],
     lat: 16.520782,
     lng: 80.522209,
@@ -1305,9 +1305,9 @@ const SHOPS = [
     name: "State Bank Of India",
     category: "Bank",
     emoji: "🏦",
-    coverImg: "../image/shops/id_23/1.png",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849547/shops/id_23/1.jpg",
     images: [
-      "../image/shops/id_23/1.png"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849547/shops/id_23/1.jpg"
     ],
     lat: 16.518333,
     lng: 80.527479,
@@ -1347,9 +1347,9 @@ const SHOPS = [
     name: "Union Bank Of India",
     category: "Bank",
     emoji: "🏦",
-    coverImg: "../image/shops/id_24/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849548/shops/id_24/1.jpg",
     images: [
-      "../image/shops/id_24/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849548/shops/id_24/1.jpg"
     ],
     lat: 16.520194,
     lng: 80.525223,
@@ -1389,9 +1389,9 @@ const SHOPS = [
     name: "Indian ATM",
     category: "ATM",
     emoji: "🏧",
-    coverImg: "../image/shops/id_25/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849549/shops/id_25/1.jpg",
     images: [
-      "../image/shops/id_25/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849549/shops/id_25/1.jpg"
     ],
     lat: 16.520028,
     lng: 80.524083,
@@ -1431,9 +1431,9 @@ const SHOPS = [
     name: "Bhavani Xerox 24",
     category: "Service",
     emoji: "📄",
-    coverImg: "../image/shops/id_26/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849550/shops/id_26/1.jpg",
     images: [
-      "../image/shops/id_26/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849550/shops/id_26/1.jpg"
     ],
     lat: 16.520278,
     lng: 80.523917,
@@ -1471,9 +1471,9 @@ const SHOPS = [
     name: "999 Cafe",
     category: "Cafe",
     emoji: "🍔",
-    coverImg: "../image/shops/id_27/id_27.jpeg.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849551/shops/id_27/id_27.jpg",
     images: [
-      "../image/shops/id_27/id_27.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849551/shops/id_27/id_27.jpg"
     ],
     lat: 16.520222,
     lng: 80.523917,
@@ -1539,9 +1539,9 @@ const SHOPS = [
     name: "Santosh Hair Saloon For Men",
     category: "Salon",
     emoji: "💈",
-    coverImg: "../image/shops/id_28/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849552/shops/id_28/1.jpg",
     images: [
-      "../image/shops/id_28/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849552/shops/id_28/1.jpg"
     ],
     lat: 16.520288,
     lng: 80.523908,
@@ -1579,9 +1579,9 @@ const SHOPS = [
     name: "Durga Vegetables",
     category: "Shop",
     emoji: "🥕",
-    coverImg: "../image/shops/id_29/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849553/shops/id_29/1.jpg",
     images: [
-      "../image/shops/id_29/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849553/shops/id_29/1.jpg"
     ],
     lat: 16.520444,
     lng: 80.523361,
@@ -1617,9 +1617,9 @@ const SHOPS = [
     name: "Total Fresh Super Market",
     category: "Shop",
     emoji: "🛒",
-    coverImg: "../image/shops/id_30/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849554/shops/id_30/1.jpg",
     images: [
-      "../image/shops/id_30/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849554/shops/id_30/1.jpg"
     ],
     lat: 16.518847,
     lng: 80.526658,
@@ -1650,9 +1650,9 @@ const SHOPS = [
     name: "Telugu Baptist Church",
     category: "Religious",
     emoji: "⛪",
-    coverImg: "../image/shops/id_31/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849555/shops/id_31/1.jpg",
     images: [
-      "../image/shops/id_31/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849555/shops/id_31/1.jpg"
     ],
     lat: 16.518013,
     lng: 80.527930,
@@ -1676,9 +1676,9 @@ const SHOPS = [
     name: "Kelvin Food Court",
     category: "Restaurant",
     emoji: "🍜",
-    coverImg: "../image/shops/id_32/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849556/shops/id_32/1.jpg",
     images: [
-      "../image/shops/id_32/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849556/shops/id_32/1.jpg"
     ],
     lat: 16.517500,
     lng: 80.528467,
@@ -1722,9 +1722,9 @@ const SHOPS = [
     name: "Hindustan Petroleum Corporation",
     category: "Fuel Station",
     emoji: "⛽",
-    coverImg: "../image/shops/id_33/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849557/shops/id_33/1.jpg",
     images: [
-      "../image/shops/id_33/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849557/shops/id_33/1.jpg"
     ],
     lat: 16.514721,
     lng: 80.531927,
@@ -1748,9 +1748,9 @@ const SHOPS = [
     name: "Bharat Petroleum",
     category: "Fuel Station",
     emoji: "⛽",
-    coverImg: "../image/shops/id_34/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849558/shops/id_34/1.jpg",
     images: [
-      "../image/shops/id_34/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849558/shops/id_34/1.jpg"
     ],
     lat: 16.513426,
     lng: 80.533109,
@@ -1774,9 +1774,9 @@ const SHOPS = [
     name: "Assisi Shanti Niketan Health Centre",
     category: "Healthcare",
     emoji: "🏥",
-    coverImg: "../image/shops/id_35/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849559/shops/id_35/1.jpg",
     images: [
-      "../image/shops/id_35/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849559/shops/id_35/1.jpg"
     ],
     lat: 16.515877,
     lng: 80.530485,
@@ -1800,9 +1800,9 @@ const SHOPS = [
     name: "Shivalayam Temple",
     category: "Religious",
     emoji: "🛕",
-    coverImg: "../image/shops/id_36/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849560/shops/id_36/1.jpg",
     images: [
-      "../image/shops/id_36/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849560/shops/id_36/1.jpg"
     ],
     lat: 16.519660,
     lng: 80.524432,
@@ -1826,9 +1826,9 @@ const SHOPS = [
     name: "Asian Paints - Venkateswara Electricals And Hardware",
     category: "Shop",
     emoji: "🔧",
-    coverImg: "../image/shops/id_37/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849561/shops/id_37/1.jpg",
     images: [
-      "../image/shops/id_37/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849561/shops/id_37/1.jpg"
     ],
     lat: 16.520519,
     lng: 80.522806,
@@ -1852,9 +1852,9 @@ const SHOPS = [
     name: "Simhadri Super Market",
     category: "Shop",
     emoji: "🛒",
-    coverImg: "../image/shops/id_38/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849562/shops/id_38/1.jpg",
     images: [
-      "../image/shops/id_38/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849562/shops/id_38/1.jpg"
     ],
     lat: 16.520348,
     lng: 80.523149,
@@ -1884,9 +1884,9 @@ const SHOPS = [
     name: "RajyaLakshmi General Stores",
     category: "Shop",
     emoji: "🏪",
-    coverImg: "../image/shops/id_39/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849563/shops/id_39/1.jpg",
     images: [
-      "../image/shops/id_39/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849563/shops/id_39/1.jpg"
     ],
     lat: 16.520349,
     lng: 80.523098,
@@ -1916,9 +1916,9 @@ const SHOPS = [
     name: "R. S. N. L. Medical & Fancy Store",
     category: "Medical",
     emoji: "💊",
-    coverImg: "../image/shops/id_40/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849564/shops/id_40/1.jpg",
     images: [
-      "../image/shops/id_40/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849564/shops/id_40/1.jpg"
     ],
     lat: 16.520055,
     lng: 80.523859,
@@ -1942,9 +1942,9 @@ const SHOPS = [
     name: "Shri Raghuramanjaneya Medicals",
     category: "Medical",
     emoji: "💊",
-    coverImg: "../image/shops/id_41/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849565/shops/id_41/1.jpg",
     images: [
-      "../image/shops/id_41/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849565/shops/id_41/1.jpg"
     ],
     lat: 16.520024,
     lng: 80.523806,
@@ -1968,9 +1968,9 @@ const SHOPS = [
     name: "Puri Vuri Express",
     category: "Restaurant",
     emoji: "🥙",
-    coverImg: "../image/shops/id_42/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849566/shops/id_42/1.jpg",
     images: [
-      "../image/shops/id_42/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849566/shops/id_42/1.jpg"
     ],
     lat: 16.49377429594764,
     lng: 80.49837280062518,
@@ -2044,9 +2044,9 @@ const SHOPS = [
     name: "ZUZU",
     category: "Restaurant",
     emoji: "🥤",
-    coverImg: "../image/shops/id_43/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849567/shops/id_43/1.jpg",
     images: [
-      "../image/shops/id_43/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849567/shops/id_43/1.jpg"
     ],
     lat: 16.493536400815696,
     lng: 80.49828965214998,
@@ -2187,9 +2187,9 @@ const SHOPS = [
     name: "The Ice Cream Bakery",
     category: "Desserts",
     emoji: "🍨",
-    coverImg: "../image/shops/id_44/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849568/shops/id_44/1.jpg",
     images: [
-      "../image/shops/id_44/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849568/shops/id_44/1.jpg"
     ],
     lat: 16.49414716896029,
     lng: 80.49847367796968,
@@ -2245,9 +2245,9 @@ const SHOPS = [
     name: "Bits & Bites (Non-Veg)",
     category: "Restaurant",
     emoji: "🍗",
-    coverImg: "../image/shops/id_45/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849569/shops/id_45/1.jpg",
     images: [
-      "../image/shops/id_45/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849569/shops/id_45/1.jpg"
     ],
     lat: 16.493956284113757,
     lng: 80.49837958247001,
@@ -2363,9 +2363,9 @@ const SHOPS = [
     name: "CFC Coffee Shop",
     category: "Cafe",
     emoji: "☕",
-    coverImg: "../image/shops/id_46/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849570/shops/id_46/1.jpg",
     images: [
-      "../image/shops/id_46/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849570/shops/id_46/1.jpg"
     ],
     lat: 16.49381476045637,
     lng: 80.49849846348334,
@@ -2419,9 +2419,9 @@ const SHOPS = [
     name: "Bits & Bites (Veg)",
     category: "Restaurant",
     emoji: "🥦",
-    coverImg: "../image/shops/id_47/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849572/shops/id_47/1.jpg",
     images: [
-      "../image/shops/id_47/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849572/shops/id_47/1.jpg"
     ],
     lat: 16.493827888240958,
     lng: 80.4986022686712,
@@ -2523,9 +2523,9 @@ const SHOPS = [
     name: "Shakers & Movers",
     category: "Cafe",
     emoji: "🧃",
-    coverImg: "../image/shops/id_48/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849573/shops/id_48/1.jpg",
     images: [
-      "../image/shops/id_48/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849573/shops/id_48/1.jpg"
     ],
     lat: 16.493905290744618,
     lng: 80.49851629751606,
@@ -2616,9 +2616,9 @@ const SHOPS = [
     name: "Street Vegetable Shop",
     category: "Shop",
     emoji: "🥕",
-    coverImg: "../image/shops/id_49/1.jpeg",
+    coverImg: "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849574/shops/id_49/1.jpg",
     images: [
-      "../image/shops/id_49/1.jpeg"
+      "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777849574/shops/id_49/1.jpg"
     ],
     lat: 16.520135,
     lng: 80.523669,
@@ -2665,7 +2665,7 @@ const SHOPS = [
 //   const res =await fetch("./js/dataShop.json");
 //   const data = await res.json();
 //   SHOPS = data;
-  
+
 // }
 // getShopData();
 
