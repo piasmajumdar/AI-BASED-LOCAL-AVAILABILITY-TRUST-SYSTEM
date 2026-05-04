@@ -155,9 +155,9 @@
         "name": "Masha Allah Fast Food Center",
         "category": "Fast Food",
         "emoji": "🍜",
-        "coverImg": "../image/shops/id_9/1.jpeg",
+        "coverImg": "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777855011/shops/id_9/1.jpg",
         "images": [
-            "../image/shops/id_9/1.jpeg"
+            "https://res.cloudinary.com/dt6mkrgtp/image/upload/v1777855011/shops/id_9/1.jpg"
         ],
         "lat": 16.520407,
         "lng": 80.522677,
